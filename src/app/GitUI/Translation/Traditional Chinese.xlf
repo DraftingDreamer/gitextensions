@@ -1433,7 +1433,27 @@ Please make sure that Git for Windows is installed or set the correct command ma
         <target>字型</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="_consoleDefaultFontText.Text">
+        <source>Console Default</source>
+        <target>主控台預設</target>
+
+      </trans-unit>
+      <trans-unit id="_defaultThemeDisplayName.Text">
+        <source>Default</source>
+        <target>預設</target>
+
+      </trans-unit>
+      <trans-unit id="consoleFontResetButton.consoleFontToolTip">
+        <source>Reset to default</source>
+        <target>重設為預設值</target>
+
+      </trans-unit>
+      <trans-unit id="lblConsoleEmulator.Text">
+        <source>Console emulator</source>
+        <target>主控台模擬器</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="ControlHotkeys" source-language="en" target-language="zh-Hant">
     <body>
@@ -1771,7 +1791,30 @@ The primary difftool can still be selected by clicking the main menu entry.</sou
         <target>垂直尺規位置 [字元]</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="_saveCurrentViewSettingsAsDefaultTooltip.Text">
+        <source>Saves all current view settings as the default for future sessions.
+Note: The checkboxes 'Remember the "xyz" preference' only affect the running instance
+as long as the default has not been saved. These preference values are held in memory
+and must be explicitly saved to become persistent defaults.</source>
+        <target>將所有目前的檢視設定儲存為未來工作階段的預設值。
+注意：「記住 &quot;xyz&quot; 偏好設定」核取方塊僅在預設值尚未儲存前影響目前執行的執行個體。這些偏好設定值儲存在記憶體中，必須明確儲存才能成為永久性的預設值。</target>
+
+      </trans-unit>
+      <trans-unit id="btnSaveCurrentViewSettingsAsDefault.Text">
+        <source>Save current view settings as default</source>
+        <target>將目前檢視設定儲存為預設值</target>
+
+      </trans-unit>
+      <trans-unit id="btnSaveCurrentViewSettingsAsDefault.toolTip">
+        <source>Saves all current view settings as the default for future sessions.
+Note: The checkboxes 'Remember the "xyz" preference' only affect the running instance
+as long as the default has not been saved. These preference values are held in memory
+and must be explicitly saved to become persistent defaults.</source>
+        <target>將所有目前的檢視設定儲存為未來工作階段的預設值。
+注意：「記住 &quot;xyz&quot; 偏好設定」核取方塊僅在預設值尚未儲存前影響目前執行的執行個體。這些偏好設定值儲存在記憶體中，必須明確儲存才能成為永久性的預設值。</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="EditNetSpell" source-language="en" target-language="zh-Hant">
     <body>
@@ -2369,7 +2412,12 @@ Suitable for some config files modified locally.</source>
         <target>更新子模組(&amp;U)</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="tsmiFindUsingOptions.Text">
+        <source>&amp;Options</source>
+        <target>選項(&amp;O)</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="FileViewer" source-language="en" target-language="zh-Hant">
     <body>
@@ -4243,7 +4291,23 @@ Do you want to continue?</source>
         <target>檢視(&amp;V)</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="_toolTip.Text">
+        <source>Change working directory
+Left click opens the drop-down menu.
+Then hold Ctrl in order to open the selected repository in a new instance.
+Right click starts the "Open repository" dialog.</source>
+        <target>變更工作目錄
+按一下左鍵開啟下拉式選單。
+按住 Ctrl 可在新執行個體中開啟所選版本庫。
+按一下右鍵啟動「開啟版本庫」對話方塊。</target>
+
+      </trans-unit>
+      <trans-unit id="toolStripWorktrees.ToolTipText">
+        <source>Worktrees</source>
+        <target>工作樹</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="FormBrowseRepoSettingsPage" source-language="en" target-language="zh-Hant">
     <body>
@@ -4337,7 +4401,12 @@ Focus the output history and （when displayed as panel） toggle its visibility
         <target>輸出歷程記錄深度 (0 為停用)：</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="chkShowRevisionGridTooltip.Text">
+        <source>Show revision tooltips (restart required)</source>
+        <target>顯示修訂提示（需重新啟動）</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="FormChangeLog" source-language="en" target-language="zh-Hant">
     <body>
@@ -4413,9 +4482,9 @@ Enter valid branch name or select predefined value.</source>
         <source>You are going to reset the “{0}” branch to a new location discarding ALL the commited changes since the {1} revision.
 
 Are you sure?</source>
-        <target>您将重設 &quot;{0}&quot; 分支到一个新位置， 这将丢弃自 {1} 稍後所有提交的改動.
+        <target>您即將把「{0}」分支重設到一個新位置，這將捨棄自修訂版本 {1} 之後所有已提交的變更。
 
-確定吗？</target>
+您確定嗎？</target>
         
       </trans-unit>
       <trans-unit id="chkSetLocalChangesActionAsDefault.Text">
@@ -5029,11 +5098,11 @@ Do you want to continue?</source>
 {0}
 
 Do you want to continue?</source>
-        <target>下面这列提交訊息中包含太多的字符：
+        <target>下列這行提交訊息包含了太多字元：
 
 {0}
 
-你要繼續吗？</target>
+您要繼續嗎？</target>
         
       </trans-unit>
       <trans-unit id="_commitMsgRegExNotMatched.Text">
@@ -5150,10 +5219,9 @@ How do you want to proceed?</source>
         <source>This commit will be unreferenced when switching to another branch and can be lost.
 
 Do you want to continue?</source>
-        <target>您尚未位於任何一個分支下工作。 
-當切換到另一分支時，此次提交將變得不會被任何分支參照且有可能丟失。 
+        <target>git HEAD 目前已分離，您無法執行「拉取」操作。
 
-您想繼續嗎？ </target>
+您要繼續嗎？</target>
         
       </trans-unit>
       <trans-unit id="_selectionFilterErrorToolTip.Text">
@@ -5358,7 +5426,7 @@ You can unset the template:
       </trans-unit>
       <trans-unit id="tsmiSelectStagedOnEnterMessage.Text">
         <source>Select staged on entering message editor</source>
-        <target>进入消息编辑器时选择已暂存</target>
+        <target>進入訊息編輯器時選取已暫存的內容</target>
         
       </trans-unit>
     </body>
@@ -5444,7 +5512,29 @@ You can unset the template:
         <target>提交驗證</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="checkBoxRegexEnabled.Text">
+        <source>Enable regex</source>
+        <target>啟用正規表示式</target>
+
+      </trans-unit>
+      <trans-unit id="checkBoxRegexEnabled.toolTipRegex">
+        <source>Use {{regex}}[regex group number] to extract branch name part
+Group number is optional, default is 1
+
+Examples on branch name: "feature/ABC-4587-commitMessageRegex"
+"Commit from: {{^feature/(.*)$}} branch" -&gt; "Commit from: ABC-4587-commitMessageRegex branch"
+"{{([A-Z]+-\d+)}}: My message is" -&gt; "ABC-4587: My message is "
+"Name: {{([A-Z]+-\d+)-(.*)}}[2], issue: {{([A-Z]+-\d+)-(.*)}}[1]" -&gt; "Name: commitMessageRegex, issue: ABC-4587"</source>
+        <target>使用 {{regex}}[正規表示式群組編號] 來擷取分支名稱的一部分
+群組編號為選填，預設為 1
+
+以分支名稱「feature/ABC-4587-commitMessageRegex」為例：
+「Commit from: {{^feature/(.*)$}} branch」→「Commit from: ABC-4587-commitMessageRegex branch」
+「{{([A-Z]+-\d+)}}: My message is」→「ABC-4587: My message is 」
+「Name: {{([A-Z]+-\d+)-(.*)}}[2], issue: {{([A-Z]+-\d+)-(.*)}}[1]」→「Name: commitMessageRegex, issue: ABC-4587」</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="FormCompareToBranch" source-language="en" target-language="zh-Hant">
     <body>
@@ -5652,7 +5742,39 @@ You can unset the template:
  (從目前提交) </target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="btnCreateWorktree.Text">
+        <source>&amp;Create the new worktree</source>
+        <target>建立新工作樹(&amp;C)</target>
+
+      </trans-unit>
+      <trans-unit id="chkOpenWorktree.Text">
+        <source>&amp;Open the new worktree after the creation</source>
+        <target>建立後開啟新工作樹(&amp;O)</target>
+
+      </trans-unit>
+      <trans-unit id="gbxWhatToCheckout.Text">
+        <source>What to checkout:</source>
+        <target>要簽出的內容：</target>
+
+      </trans-unit>
+      <trans-unit id="lblNewWorktreeFolder.Text">
+        <source>New worktree &amp;directory:</source>
+        <target>新工作樹目錄(&amp;D)：</target>
+
+      </trans-unit>
+      <trans-unit id="rbCheckoutExistingBranch.Text">
+        <source>Checkout an &amp;existing branch:</source>
+        <target>簽出現有分支(&amp;E)：</target>
+
+      </trans-unit>
+      <trans-unit id="rbCreateNewBranch.Text">
+        <source>Create a &amp;new branch:
+(from current commit)</source>
+        <target>建立新分支(&amp;N)：
+（從目前提交）</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="FormDashboardCategoryTitle" source-language="en" target-language="zh-Hant">
     <body>
@@ -5737,7 +5859,27 @@ Proceed?</source>
         <target>選取分支(&amp;B)</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="_branchUsedByWorktreeQuestion.Text">
+        <source>The following branches are checked out in worktrees and cannot be deleted directly:
+
+{0}
+
+Do you want to delete the worktrees and branches together?</source>
+        <target>下列分支已在工作樹中簽出，無法直接刪除：
+
+{0}
+
+您要同時刪除工作樹和分支嗎？</target>
+
+      </trans-unit>
+      <trans-unit id="_cannotDeleteBranchInMainWorktree.Text">
+        <source>The branch "{0}" cannot be deleted because it is checked out in the main worktree at:
+{1}</source>
+        <target>分支「{0}」無法刪除，因為它已在以下主工作樹中簽出：
+{1}</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="FormDeleteRemoteBranch" source-language="en" target-language="zh-Hant">
     <body>
@@ -5884,18 +6026,18 @@ Deleting a branch can cause commits to be deleted too!</source>
         <source>We have a dedicated team of collaborators that spends a lot of time maintaining the app, working on new features and fixing bugs.You can support the project by making a financial contribution. Donations will be used to cover running costs and to get the resources needed to keep the project running. We will also use donations to thank collaborators for their efforts.
 
 Click on the button below to get more information about making a donation.</source>
-        <target>我们有一个专门的合作团队，他们花费大量時間維護應用程式、開發新特性和修復bug。你可以通过捐款来支援这个專案。捐款将用於付款執列成本，并获得維持專案執列所需的资源。我们也会用捐款来感谢合作者的努力。
+        <target>我們有一支專屬的協作團隊，他們花費大量時間維護應用程式、開發新功能並修復錯誤。您可以透過捐款來支援這個專案。捐款將用於支付執行成本，並取得維持專案運作所需的資源。我們也會用捐款來感謝協作者的付出。
 
-按一下下面的按钮获得更多關於捐赠的資訊。</target>
+請按一下下方按鈕以獲取更多捐款資訊。</target>
         
       </trans-unit>
       <trans-unit id="lblText.Text">
         <source>We have a dedicated team of collaborators that spends a lot of time maintaining the app, working on new features and fixing bugs.You can support the project by making a financial contribution. Donations will be used to cover running costs and to get the resources needed to keep the project running. We will also use donations to thank collaborators for their efforts.
 
 Click on the button below to get more information about making a donation.</source>
-        <target>我们有一个专门的合作团队，他们花费大量時間維護應用程式、開發新特性和修復bug。你可以通过捐款来支援这个專案。捐款将用於付款執列成本，并获得維持專案執列所需的资源。我们也会用捐款来感谢合作者的努力。
+        <target>我們有一支專屬的協作團隊，他們花費大量時間維護應用程式、開發新功能並修復錯誤。您可以透過捐款來支援這個專案。捐款將用於支付執行成本，並取得維持專案運作所需的資源。我們也會用捐款來感謝協作者的付出。
 
-按一下下面的按钮获得更多關於捐赠的資訊。</target>
+請按一下下方按鈕以獲取更多捐款資訊。</target>
         
       </trans-unit>
     </body>
@@ -6216,10 +6358,10 @@ If you are not sure just close this window.</source>
 &quot; {0} &quot;
 
 Do you want Git Extensions to help locate the correct folder?</source>
-        <target>環境變數 HOME 不包含存在 git config檔案的路徑：
-“{0}”
+        <target>環境變數 HOME 未指向包含全域 git 設定檔案的目錄：
+&quot; {0} &quot;
 
-你想让Git Extensions来說明你找到这樣的資料夾吗？</target>
+您要讓 Git Extensions 協助找到正確的資料夾嗎？</target>
         
       </trans-unit>
       <trans-unit id="_gitGlobalConfigNotFoundCaption.Text">
@@ -7310,9 +7452,9 @@ you must specify a remote branch.</source>
         <source>You cannot &quot;pull&quot; when git head detached.
 
 Do you want to continue?</source>
-        <target>git HEAD已经变化了，你不能拉取。
+        <target>git HEAD 目前已分離，您無法執行「拉取」操作。
 
-你要繼續吗？</target>
+您要繼續嗎？</target>
         
       </trans-unit>
       <trans-unit id="_pruneBranchesBranch.Text">
@@ -8134,7 +8276,7 @@ Do you want to continue?</source>
       </trans-unit>
       <trans-unit id="createABranchOnThisCommitToolStripMenuItem.Text">
         <source>Create a branch on this commit...</source>
-        <target>从这个提交处建立一个分支...</target>
+        <target>從此提交建立分支...</target>
         
       </trans-unit>
       <trans-unit id="label1.Text">
@@ -8150,8 +8292,8 @@ Do you want to continue?</source>
       <trans-unit id="lblDirtyWorkingDirectory.Text">
         <source>Warning: you&apos;ve got changes in your working directory that could be lost if you want to reset the current branch to another commit.
 Stash them before if you don&apos;t want to lose them.</source>
-        <target>警告：如果要将目前分支重設为另一个提交，那麼工作目錄中的更改可能会丢失。
-如果你不想丢弃它们，就把它们放到暫存区。</target>
+        <target>警告：您的工作目錄中有變更，如果將目前分支重設到另一個提交，這些變更可能會遺失。
+如果您不想遺失它們，請先將它們暫存。</target>
         
       </trans-unit>
       <trans-unit id="linkCurrentBranch.Text">
@@ -8166,7 +8308,7 @@ Stash them before if you don&apos;t want to lose them.</source>
       </trans-unit>
       <trans-unit id="resetCurrentBranchOnThisCommitToolStripMenuItem.Text">
         <source>Reset current branch to this commit...</source>
-        <target>重設目前分支到这个提交...</target>
+        <target>將目前分支重設到此提交...</target>
         
       </trans-unit>
     </body>
@@ -8206,13 +8348,13 @@ When the connection is opened detached from Git and Git Extensions, the host&apo
 You could also manually add the host&apos;s fingerprint or run Test Connection from the remotes dialog.
 
 Do you want to register the host&apos;s fingerprint and restart the process?</source>
-        <target>此主机的指纹不是由PuTTY註冊的。
-这会导致進程掛起，也就是它自動停止的原因。
+        <target>此主機的指紋並未由 PuTTY 登錄。
+這會導致程序掛起，這也是它被自動停止的原因。
 
-當打開的通信連接与Git和GitExtensions分离时，才可以註冊这个主机指纹。
-您也可以手動新增主机指纹或从遠端對話方塊中執列測試連接。
+當連線從 Git 和 Git Extensions 獨立開啟時，才能登錄主機指紋。
+您也可以手動新增主機指紋，或從遠端對話方塊執行「測試連線」。
 
-你要現在註冊主机的指纹，并重新啟動该進程吗？</target>
+您要立即登錄此主機的指紋並重新啟動程序嗎？</target>
         
       </trans-unit>
       <trans-unit id="_fingerprintNotRegistredTextCaption.Text">
@@ -8479,7 +8621,12 @@ Value has been reset to empty value.</source>
         <target>預設拉取動作（獲取與合併）</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="lblRemotePrefix.Text">
+        <source>Prefix</source>
+        <target>前置詞</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="FormRenameBranch" source-language="en" target-language="zh-Hant">
     <body>
@@ -8529,7 +8676,7 @@ Value has been reset to empty value.</source>
       </trans-unit>
       <trans-unit id="_localRefInvalid.Text">
         <source>The entered value &apos;{0}&apos; is not the name of an existing local branch.</source>
-        <target>输入的值“{0}”不是任何一个现有的本機分支的名稱。</target>
+        <target>輸入的值「{0}」不是任何現有本機分支的名稱。</target>
         
       </trans-unit>
       <trans-unit id="cbxCheckoutBranch.Text">
@@ -8578,7 +8725,17 @@ Forcing a branch to reset if it has not been merged might leave some commits unr
         <target>即將刪除任何未commit的變更</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="lblDeleteHint.Text">
+        <source>This will delete any uncommitted work.</source>
+        <target>這將刪除所有未提交的工作。</target>
+
+      </trans-unit>
+      <trans-unit id="txtMessage.Text">
+        <source>Are you sure you want to reset your changes?</source>
+        <target>您確定要重設您的變更嗎？</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="FormResetCurrentBranch" source-language="en" target-language="zh-Hant">
     <body>
@@ -8625,7 +8782,7 @@ Forcing a branch to reset if it has not been merged might leave some commits unr
       </trans-unit>
       <trans-unit id="Soft.Text">
         <source>&amp;Soft: leave working directory and index untouched</source>
-        <target>軟模式：保持工作目錄和索引均不变</target>
+        <target>軟式 (&amp;S)：保留工作目錄和索引不變</target>
         
       </trans-unit>
       <trans-unit id="_branchInfo.Text">
@@ -8754,9 +8911,9 @@ Do you want to commit now?</source>
         <source>Are you sure you want to DELETE all changes?
 
 This action cannot be made undone.</source>
-        <target>你確定你要刪除所有的更改吗？
+        <target>您確定要刪除所有變更嗎？
 
-这个動作是不能撤消的。</target>
+此操作無法復原。</target>
         
       </trans-unit>
       <trans-unit id="_areYouSureYouWantDeleteFilesCaption.Text">
@@ -8797,7 +8954,7 @@ Is the merge conflict solved?</source>
       </trans-unit>
       <trans-unit id="_changesLocalRebaseTooltip.Text">
         <source>Changes from the branch you are rebasing onto</source>
-        <target>从您要迁移到的分支進列的更改</target>
+        <target>來自您要重定基底之目標分支的變更</target>
         
       </trans-unit>
       <trans-unit id="_changesRemoteMergeTooltip.Text">
@@ -8812,7 +8969,7 @@ Is the merge conflict solved?</source>
       </trans-unit>
       <trans-unit id="_changesTakeOnlyLocalMergeTooltip.Text">
         <source>Take only the changes from the current branch</source>
-        <target>只擷取目前分支的变更</target>
+        <target>僅擷取目前分支的變更</target>
         
       </trans-unit>
       <trans-unit id="_changesTakeOnlyLocalRebaseTooltip.Text">
@@ -8918,18 +9075,18 @@ Is the merge conflict solved?</source>
       <trans-unit id="_fileBinaryChooseLocalBaseRemote.Text">
         <source>File &apos;{0}&apos; appears to be binary.
 Choose to keep the local &apos;{1}&apos;, remote &apos;{2}&apos; or base file.</source>
-        <target>文件 ({0}) 可能是二进制文件。
-选择保留本地文件 ({1})、远程文件 ({2}) 还是基线文件。</target>
+        <target>檔案「{0}」似乎是二進位檔案。
+請選擇保留本機版本「{1}」、遠端版本「{2}」或基底檔案。</target>
         
       </trans-unit>
       <trans-unit id="_fileChangeLocallyAndRemotely.Text">
         <source>The file has been changed both locally ({0}) and remotely ({1}). Merge the changes.</source>
-        <target>该檔案在本機 （{0}） 和遠端 （{1}） 都進列了修改。请合併修改。</target>
+        <target>此檔案在本機（{0}）和遠端（{1}）均有變更。請合併這些變更。</target>
         
       </trans-unit>
       <trans-unit id="_fileCreatedLocallyAndRemotely.Text">
         <source>A file with the same name has been created locally ({0}) and remotely ({1}). Choose the file you want to keep or merge the files.</source>
-        <target>本機 （{0}） 和遠端 （{1}） 都建立了同名檔案。请選擇要儲存的檔案或合併檔案。</target>
+        <target>本機（{0}）和遠端（{1}）都建立了同名檔案。請選擇要保留的檔案或合併檔案。</target>
         
       </trans-unit>
       <trans-unit id="_fileCreatedLocallyAndRemotelyLong.Text">
@@ -8937,15 +9094,15 @@ Choose to keep the local &apos;{1}&apos;, remote &apos;{2}&apos; or base file.</
 A file with the same name has been created locally ({1}) and remotely ({2}) causing this conflict.
 
 Choose the file you want to keep, merge the files or delete the file?</source>
-        <target>文件{0}没有一个基础版本。
-具有相同名称的文件已经在本地（{1}）和远程（{2}）创建，导致此冲突。
+        <target>檔案「{0}」沒有基底版本。
+本機（{1}）和遠端（{2}）都建立了同名檔案，導致此衝突。
 
-请选择要保留文件，合并文件或删除文件？</target>
+請選擇要保留的檔案、合併檔案或刪除檔案？</target>
         
       </trans-unit>
       <trans-unit id="_fileDeletedLocallyAndModifiedRemotely.Text">
         <source>The file has been deleted locally ({0}) and modified remotely ({1}). Choose to delete the file or keep the modified version.</source>
-        <target>该檔案在本機（{0}）被刪除或修改自遠端（{1}）檔案。 選擇刪除檔案或保留修改後的版本。</target>
+        <target>此檔案在本機（{0}）已被刪除，但在遠端（{1}）已被修改。請選擇刪除檔案或保留修改後的版本。</target>
         
       </trans-unit>
       <trans-unit id="_fileDeletedLocallyAndModifiedRemotelyLong.Text">
@@ -8953,10 +9110,10 @@ Choose the file you want to keep, merge the files or delete the file?</source>
 The file has been deleted locally ({1}) but modified remotely ({2}).
 
 Choose to delete the file or keep the modified version.</source>
-        <target>文件 {0} 在本地不存在。
-在本地 ({1}) 文件被删除，但在远程 ({2})被修改。
+        <target>檔案「{0}」在本機不存在。
+此檔案在本機（{1}）已被刪除，但在遠端（{2}）已被修改。
 
-请选择删除文件还是保留修改后的版本。</target>
+請選擇刪除檔案或保留修改後的版本。</target>
         
       </trans-unit>
       <trans-unit id="_fileIsBinary.Text">
@@ -8967,7 +9124,7 @@ Are you sure you want to open this file in {0}?</source>
       </trans-unit>
       <trans-unit id="_fileModifiedLocallyAndDeletedRemotely.Text">
         <source>The file has been modified locally ({0}) and deleted remotely ({1}). Choose to delete the file or keep the modified version.</source>
-        <target>该檔案在本機被修改 （{0}），在遠端被刪除 （{1}）。请選擇刪除该檔案还是保持修改後的版本。</target>
+        <target>此檔案在本機（{0}）已被修改，但在遠端（{1}）已被刪除。請選擇刪除檔案或保留修改後的版本。</target>
         
       </trans-unit>
       <trans-unit id="_fileModifiedLocallyAndDeletedRemotelyLong.Text">
@@ -8975,10 +9132,10 @@ Are you sure you want to open this file in {0}?</source>
 The file has been modified locally ({1}) but deleted remotely ({2}).
 
 Choose to delete the file or keep the modified version.</source>
-        <target>文件 {0} 在远程不存在。
-在本地 ({1}) 文件被修改，但在远程 ({2}) 被删除。
+        <target>檔案「{0}」在遠端不存在。
+此檔案在本機（{1}）已被修改，但在遠端（{2}）已被刪除。
 
-请选择删除文件还是保留修改后的版本。</target>
+請選擇刪除檔案或保留修改後的版本。</target>
         
       </trans-unit>
       <trans-unit id="_fileUnchangedAfterMerge.Text">
@@ -8995,10 +9152,10 @@ The merge conflict will not be marked as solved. Please try again.</source>
 The files have been deleted locally, but modified remotely
 
 Choose to delete the files or keep the modified versions.</source>
-        <target>{0}和{1} 在所选中的{2}文件中的其他文件没有本地修订版本。
-这些文件已经在本地被删除，远程却已被修改。
+        <target>「{0}」以及所選 {2} 個檔案中的其他 {1} 個檔案在本機不存在。
+這些檔案在本機已被刪除，但在遠端已被修改。
 
-选择删除这些文件或保留修改后的版本。</target>
+請選擇刪除這些檔案或保留修改後的版本。</target>
         
       </trans-unit>
       <trans-unit id="_filesDeletedLocallyAndModifiedRemotelyLongNoOtherFilesSelected.Text">
@@ -9006,10 +9163,10 @@ Choose to delete the files or keep the modified versions.</source>
 The files have been deleted locally, but modified remotely
 
 Choose to delete the files or keep the modified versions.</source>
-        <target>{0}和{1} 在所选中的{2}文件中的其他文件没有本地修订版本。
-这些文件已经在本地被删除，远程却已被修改。
+        <target>「{0}」以及其他 {1} 個所選檔案在本機不存在。
+這些檔案在本機已被刪除，但在遠端已被修改。
 
-选择删除这些文件或保留修改后的版本。</target>
+請選擇刪除這些檔案或保留修改後的版本。</target>
         
       </trans-unit>
       <trans-unit id="_filesModifiedLocallyAndDeletedRemotelyLong.Text">
@@ -9017,10 +9174,10 @@ Choose to delete the files or keep the modified versions.</source>
 The files have been modified locally, but deleted remotely.
 
 Choose to delete the files or keep the modified versions.</source>
-        <target>{0}和{1} 在所选中的{2}文件中的其他文件没有远程修订版本。
-这些文件已经在本地被修改，远程却已被删除。
+        <target>「{0}」以及所選 {2} 個檔案中的其他 {1} 個檔案在遠端不存在。
+這些檔案在本機已被修改，但在遠端已被刪除。
 
-选择删除这些文件或保持修改后的版本。</target>
+請選擇刪除這些檔案或保留修改後的版本。</target>
         
       </trans-unit>
       <trans-unit id="_filesModifiedLocallyAndDeletedRemotelyLongNoOtherFilesSelected.Text">
@@ -9028,10 +9185,10 @@ Choose to delete the files or keep the modified versions.</source>
 The files have been modified locally, but deleted remotely.
 
 Choose to delete the files or keep the modified versions.</source>
-        <target>{0}和{1} 所选中的其他文件没有远程修订版本。
-这些文件已经在本地被修改，远程却已被删除。
+        <target>「{0}」以及其他 {1} 個所選檔案在遠端不存在。
+這些檔案在本機已被修改，但在遠端已被刪除。
 
-选择删除这些文件或保持修改后的版本。</target>
+請選擇刪除這些檔案或保留修改後的版本。</target>
         
       </trans-unit>
       <trans-unit id="_keepBaseButtonText.Text">
@@ -9063,15 +9220,15 @@ Fall back to 2-way merge?</source>
       <trans-unit id="_noMergeTool.Text">
         <source>There is no mergetool configured.
 Please go to settings and set a mergetool!</source>
-        <target>没有設定合併工具。
-请進入設定，設定合併工具！</target>
+        <target>尚未設定合併工具。
+請前往設定並設定合併工具！</target>
         
       </trans-unit>
       <trans-unit id="_noMergeToolConfigured.Text">
         <source>The mergetool is not correctly configured.
 Please go to settings and configure the mergetool!</source>
-        <target>合併工具没有正確設定。
-请進入設定并設定合併工具！</target>
+        <target>合併工具設定不正確。
+請前往設定並設定合併工具！</target>
         
       </trans-unit>
       <trans-unit id="_openMergeToolItemText.Text">
@@ -9209,7 +9366,7 @@ Do you want to use this custom merge script?</source>
       </trans-unit>
       <trans-unit id="ParentsLabel.Text">
         <source>This commit is a merge, select &amp;parent:</source>
-        <target>这提交是一个合併，選擇合併的上一代&amp;p：</target>
+        <target>此提交是一個合併提交，請選擇上層(&amp;P)：</target>
         
       </trans-unit>
       <trans-unit id="Revert.Text">
@@ -9343,7 +9500,7 @@ Do you want to use this custom merge script?</source>
       </trans-unit>
       <trans-unit id="_since.Text">
         <source>&amp;Since</source>
-        <target>从（&amp;S）</target>
+        <target>自從(&amp;S)</target>
         
       </trans-unit>
       <trans-unit id="_until.Text">
@@ -10000,7 +10157,7 @@ Context menu for additional operations</source>
       </trans-unit>
       <trans-unit id="chkShowGitStatusInToolbar.Text">
         <source>Show number of changed files on commit button</source>
-        <target>在提交按钮顯示檔案变更數量</target>
+        <target>在提交按鈕顯示已變更的檔案數量</target>
         
       </trans-unit>
       <trans-unit id="chkShowStashCountInBrowseWindow.Text">
@@ -10075,7 +10232,7 @@ Context menu for additional operations</source>
       </trans-unit>
       <trans-unit id="llblTelemetryPrivacyLink.Text">
         <source>Why and what is captured?</source>
-        <target>为什麼以及捕获了什麼？</target>
+        <target>為什麼要收集？收集了哪些資料？</target>
         
       </trans-unit>
     </body>
@@ -10456,7 +10613,17 @@ to %HOMEDRIVE%%HOMEPATH% if empty. Change the default behaviour only if you expe
         <target>linux 工具 (sh) 的路徑。如果在路徑中，請留空。</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="_envIsNotSetString.Text">
+        <source>{0} is not set.</source>
+        <target>{0} 未設定。</target>
+
+      </trans-unit>
+      <trans-unit id="_envIsSetToString.Text">
+        <source>{0} is set to: {1}</source>
+        <target>{0} 設定為：{1}</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="Globalized" source-language="en" target-language="zh-Hant">
     <body>
@@ -10475,10 +10642,10 @@ to %HOMEDRIVE%%HOMEPATH% if empty. Change the default behaviour only if you expe
 Git won&apos;t be able to restore the working copy to its full content this way.
 
 Would you like to have the filter modified so that it allowed for the full working copy?</source>
-        <target>您即将停用此版本庫的 git 稀疏功能， {0}。
-这樣Git 无法将工作副本还原为完整内容。
+        <target>您即將停用此版本庫（{0}）的 Git 稀疏簽出功能。
+這樣一來，Git 將無法將工作複本還原為完整內容。
 
-是否修改该過濾器以使其能够获得完整的工作副本？</target>
+是否要修改篩選條件，以允許完整的工作複本？</target>
         
       </trans-unit>
       <trans-unit id="CouldNotSave.Text">
@@ -10840,9 +11007,9 @@ Try again?</source>
         <source>The server&apos;s host key is not cached in the registry.
 
 Do you want to trust this host key and then try again?</source>
-        <target>伺服器的主机金鑰没存儲在註冊表中。
+        <target>伺服器的主機金鑰尚未儲存在登錄檔中。
 
-你要相信这个主机金鑰，然後再試一次吗？</target>
+您要信任此主機金鑰並再試一次嗎？</target>
         
       </trans-unit>
       <trans-unit id="_shellNotFound.Text">
@@ -10884,9 +11051,9 @@ Do you want to trust this host key and then try again?</source>
         <source>Since this repository has submodules, it&apos;s necessary to update them on every checkout.
 
 This will just checkout on the submodule the commit determined by the superproject.</source>
-        <target>此版本庫含有子模組，每次簽出时必須更新这些子模組。
+        <target>此版本庫含有子模組，每次簽出時必須更新這些子模組。
 
-这只会在子模組上簽出由父專案决定的提交。</target>
+這只會在子模組上簽出由父專案決定的提交。</target>
         
       </trans-unit>
     </body>
@@ -11425,7 +11592,72 @@ Reset the filter via View &gt; Show all branches.</source>
         <target>標籤</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="tsbShowWorktrees.Text">
+        <source>&amp;Worktrees</source>
+        <target>工作樹(&amp;W)</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnCopyWorktreePath.Text">
+        <source>Copy &amp;path</source>
+        <target>複製路徑(&amp;P)</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnCopyWorktreePath.ToolTipText">
+        <source>Copy the worktree path to clipboard</source>
+        <target>將工作樹路徑複製到剪貼簿</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnCreateWorktreeFromRootNode.Text">
+        <source>&amp;Create worktree...</source>
+        <target>建立工作樹...(&amp;C)</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnDeleteWorktree.Text">
+        <source>&amp;Delete worktree...</source>
+        <target>刪除工作樹...(&amp;D)</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnDeleteWorktree.ToolTipText">
+        <source>Delete this worktree</source>
+        <target>刪除此工作樹</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnManageWorktreesFromRootNode.Text">
+        <source>&amp;Manage worktrees...</source>
+        <target>管理工作樹...(&amp;M)</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnOpenWorktree.Text">
+        <source>&amp;Open worktree</source>
+        <target>開啟工作樹(&amp;O)</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnOpenWorktree.ToolTipText">
+        <source>Open this worktree</source>
+        <target>開啟此工作樹</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnPruneWorktreesFromRootNode.Text">
+        <source>&amp;Prune worktrees</source>
+        <target>修剪工作樹(&amp;P)</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnShowWorktreeInFolder.Text">
+        <source>Show &amp;in folder</source>
+        <target>在資料夾中顯示(&amp;I)</target>
+
+      </trans-unit>
+      <trans-unit id="mnubtnShowWorktreeInFolder.ToolTipText">
+        <source>Show the worktree in File Explorer</source>
+        <target>在檔案總管中顯示工作樹</target>
+
+      </trans-unit>
+      <trans-unit id="tsbShowWorktrees.ToolTipText">
+        <source>Worktrees</source>
+        <target>工作樹</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="RevisionGpgInfoControl" source-language="en" target-language="zh-Hant">
     <body>
@@ -11703,7 +11935,17 @@ Reset the filter via View &gt; Show all branches.</source>
         <target>顯示標籤(&amp;T)</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="ShowSessionCheckpoints.Text">
+        <source>Show session checkpoints</source>
+        <target>顯示工作階段檢查點</target>
+
+      </trans-unit>
+      <trans-unit id="showGitNotesColumnToolStripMenuItem.Text">
+        <source>Show Git &amp;notes column</source>
+        <target>顯示 Git 備註欄位(&amp;N)</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="RevisionGridControl" source-language="en" target-language="zh-Hant">
     <body>
@@ -11719,7 +11961,7 @@ Reset the filter via View &gt; Show all branches.</source>
       </trans-unit>
       <trans-unit id="_dontShowAgain.Text">
         <source>Don&apos;t show me this message again.</source>
-        <target>不再顯示此訊息。</target>
+        <target>不再顯示此訊息(&amp;D)</target>
         
       </trans-unit>
       <trans-unit id="_droppingFilesBlocked.Text">
@@ -12002,7 +12244,22 @@ Reset the filter via View &gt; Show all branches.</source>
         <target>檢視</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="resetChangesToolStripMenuItem.Text">
+        <source>&amp;Reset changes</source>
+        <target>重設變更(&amp;R)</target>
+
+      </trans-unit>
+      <trans-unit id="tsmiOtherActions.Text">
+        <source>&amp;Other actions</source>
+        <target>其他動作(&amp;O)</target>
+
+      </trans-unit>
+      <trans-unit id="tsmiPushBranch.Text">
+        <source>Pus&amp;h branch...</source>
+        <target>推送分支...(&amp;H)</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="RevisionLinksSettingsPage" source-language="en" target-language="zh-Hant">
     <body>
@@ -12751,7 +13008,7 @@ Select this commit to populate the full message.</source>
       </trans-unit>
       <trans-unit id="_dontShowAgain.Text">
         <source>&amp;Don&apos;t show me this message again</source>
-        <target>不要再顯示这个訊息（&amp;D）</target>
+        <target>不再顯示此訊息(&amp;D)</target>
         
       </trans-unit>
       <trans-unit id="_error.Text">
@@ -12864,12 +13121,12 @@ Copy error details to clipboard?</source>
       </trans-unit>
       <trans-unit id="_generalGitConfigExceptionMessage.Text">
         <source>Failed to read &quot;{0}&quot; due to the following error:{1}{1}{2}{1}{1}Due to the nature of this problem, the behavior of the application cannot be guaranteed and it must be closed.{1}{1}Please correct this issue and re-open Git Extensions.</source>
-        <target>由於以下錯誤，未能讀取 &quot;{0}&quot;：{1}{1}{2}{1}{1}由於此問題的性質，无法保證本應用程式能够正常執列，必須将其關閉。{1}{1}请修正此問題并重新打開 Git Extensions。</target>
+        <target>由於以下錯誤，無法讀取「{0}」：{1}{1}{2}{1}{1}由於此問題的性質，無法保證應用程式能夠正常執行，必須將其關閉。{1}{1}請修正此問題並重新開啟 Git Extensions。</target>
         
       </trans-unit>
       <trans-unit id="_gitDubiousOwnershipHeader.Text">
         <source>Do you want to trust this repository by adding a security exception?</source>
-        <target>您要通过新增安全例外来信任此版本庫吗？</target>
+        <target>您要透過新增安全性例外來信任此版本庫嗎？</target>
         
       </trans-unit>
       <trans-unit id="_gitDubiousOwnershipHideGitCommandOutput.Text">
@@ -13088,7 +13345,7 @@ Remote: {1}</source>
       </trans-unit>
       <trans-unit id="_reportBugText.Text">
         <source>If you think this was caused by Git Extensions, you can report a bug for the team to investigate.</source>
-        <target>如果您認为这是由Git擴充功能引起的，则可以报告一个錯誤，供团队調查。</target>
+        <target>如果您認為這是由 Git Extensions 引起的，可以向團隊回報錯誤以供調查。</target>
         
       </trans-unit>
       <trans-unit id="_reportIssue.Text">
@@ -13155,12 +13412,12 @@ Sometimes Windows may need to be restarted too.</source>
       </trans-unit>
       <trans-unit id="_scriptErrorOptionWithoutRevisionGridText.Text">
         <source>option is only supported when invoked from the revision grid</source>
-        <target>仅在从修订網格中調用时才支援该選項</target>
+        <target>此選項僅支援從修訂網格中叫用時使用</target>
         
       </trans-unit>
       <trans-unit id="_scriptErrorOptionWithoutRevisionText.Text">
         <source>A valid revision is required to substitute the argument options</source>
-        <target>需要一个有效的版本来取代參數選項</target>
+        <target>需要有效的版本來替換參數選項</target>
         
       </trans-unit>
       <trans-unit id="_scriptText.Text">
@@ -13225,14 +13482,14 @@ See documentation for more details about icons and range diffs.
 all the first selected with the last selected commit.
 - For more than four selected commits, show the difference from the first to
 the last selected commit.</source>
-        <target>顯示所選提交之間的所有差異，但不限於一个差異。
+        <target>顯示所選提交之間的所有差異，不限於單一差異。
 
--對於单个選定提交，顯示其与父提交的差異。
--對於单个選定的合併提交，顯示与所有父級的差異。
--對於具有共同祖先（基）的两个選定提交，顯示提交之間差異，包括从基提交到所選提交之間的差異。
-有關圖示和范围差異的详细資訊，请参閱文档。
--對於多个選定提交（最多四个），顯示从第一个選擇的提交到最後一个選擇的提交的差異。
--對於四个以上的選定提交，顯示从第一个選擇的提交到最後一个選擇的提交的差異。</target>
+- 對於單一選定的提交，顯示與其上層提交的差異。
+- 對於單一選定的合併提交，顯示與所有上層的差異。
+- 對於具有共同祖先（基底）的兩個選定提交，顯示提交之間的差異，以及從基底提交到所選提交的差異。
+  如需圖示和範圍差異的詳細資訊，請參閱文件。
+- 對於多個選定的提交（最多四個），顯示從第一個選定提交到最後一個選定提交的差異。
+- 對於四個以上的選定提交，顯示從第一個選定提交到最後一個選定提交的差異。</target>
         
       </trans-unit>
       <trans-unit id="_showOnlyFirstParent.Text">
@@ -13257,7 +13514,7 @@ the last selected commit.</source>
       </trans-unit>
       <trans-unit id="_since.Text">
         <source>Since</source>
-        <target>從</target>
+        <target>自從(&amp;S)</target>
         
       </trans-unit>
       <trans-unit id="_sortBy.Text">
@@ -13317,12 +13574,12 @@ We won&apos;t collect any personal or identifiable information.
 You can change your mind at any time.
 
 Yes, I allow telemetry!</source>
-        <target>我们收集執列資訊来使套用更加完善。
+        <target>我們收集資訊以改善應用程式。
 
-我们不会收集任何个人隐私或身份等資訊。
-你可以随时修改这个設定。
+我們不會收集任何個人或可識別的資訊。
+您可以隨時更改設定。
 
-好的，我允許套用遥測！</target>
+好的，我允許遙測！</target>
         
       </trans-unit>
       <trans-unit id="_uninterestingDiffOmitted.Text">
@@ -13375,7 +13632,87 @@ Yes, I allow telemetry!</source>
         <target>是</target>
         
       </trans-unit>
-    </body>
+          <trans-unit id="_createWorktree.Text">
+        <source>Create worktree...</source>
+        <target>建立工作樹...</target>
+
+      </trans-unit>
+      <trans-unit id="_deleteWorktreeCaption.Text">
+        <source>Delete worktree</source>
+        <target>刪除工作樹</target>
+
+      </trans-unit>
+      <trans-unit id="_deleteWorktreeConfirmation.Text">
+        <source>Are you sure you want to delete the worktree at {0}?</source>
+        <target>您確定要刪除位於 {0} 的工作樹嗎？</target>
+
+      </trans-unit>
+      <trans-unit id="_deleteWorktreeFailed.Text">
+        <source>Failed to delete worktree: {0}</source>
+        <target>刪除工作樹失敗：{0}</target>
+
+      </trans-unit>
+      <trans-unit id="_isLocalBranch.Text">
+        <source>is a local branch</source>
+        <target>是本機分支</target>
+
+      </trans-unit>
+      <trans-unit id="_isRemoteBranch.Text">
+        <source>is a remote branch</source>
+        <target>是遠端分支</target>
+
+      </trans-unit>
+      <trans-unit id="_isTag.Text">
+        <source>is a tag</source>
+        <target>是標籤</target>
+
+      </trans-unit>
+      <trans-unit id="_isTrackedBy_Branch_AheadBehind.Text">
+        <source>is tracked by [{0}]   {1}</source>
+        <target>由 [{0}] 追蹤   {1}</target>
+
+      </trans-unit>
+      <trans-unit id="_isTracking_Remote.Text">
+        <source>is tracking [{0}]</source>
+        <target>正在追蹤 [{0}]</target>
+
+      </trans-unit>
+      <trans-unit id="_manageWorktrees.Text">
+        <source>Manage worktrees...</source>
+        <target>管理工作樹...</target>
+
+      </trans-unit>
+      <trans-unit id="_pruneWorktrees.Text">
+        <source>Prune worktrees</source>
+        <target>修剪工作樹</target>
+
+      </trans-unit>
+      <trans-unit id="_switchWorktreeCaption.Text">
+        <source>Open worktree</source>
+        <target>開啟工作樹</target>
+
+      </trans-unit>
+      <trans-unit id="_switchWorktreeConfirmation.Text">
+        <source>Switch to worktree at {0}?</source>
+        <target>要切換到位於 {0} 的工作樹嗎？</target>
+
+      </trans-unit>
+      <trans-unit id="_wasTracking_Remote.Text">
+        <source>was tracking [{0}], but the remote is gone</source>
+        <target>先前追蹤 [{0}]，但遠端已不存在</target>
+
+      </trans-unit>
+      <trans-unit id="_worktreeDirectoryNotFound.Text">
+        <source>Worktree directory does not exist: {0}</source>
+        <target>工作樹目錄不存在：{0}</target>
+
+      </trans-unit>
+      <trans-unit id="_worktreesText.Text">
+        <source>Worktrees</source>
+        <target>工作樹</target>
+
+      </trans-unit>
+</body>
   </file>
   <file datatype="plaintext" original="UserRepositoriesList" source-language="en" target-language="zh-Hant">
     <body>
@@ -13393,9 +13730,9 @@ Yes, I allow telemetry!</source>
         <source>Do you want to clear the list of recent repositories?
 
 The action cannot be undone.</source>
-        <target>要将最近使用的版本庫清單清空吗？
+        <target>您要清空最近使用的版本庫清單嗎？
 
-该操作不可恢復。</target>
+此操作無法復原。</target>
         
       </trans-unit>
       <trans-unit id="_deleteCategoryCaption.Text">
@@ -13407,9 +13744,9 @@ The action cannot be undone.</source>
         <source>Do you want to delete category &quot;{0}&quot; with {1} repositories?
 
 The action cannot be undone.</source>
-        <target>要刪除版本庫 {1} 中的 {0} 類別吗？
+        <target>您要刪除包含 {1} 個版本庫的類別「{0}」嗎？
 
-该操作不可恢復。</target>
+此操作無法復原。</target>
         
       </trans-unit>
       <trans-unit id="_groupActions.Text">
@@ -13489,7 +13826,7 @@ The action cannot be undone.</source>
       </trans-unit>
       <trans-unit id="tsmiRemoveFromList.Text">
         <source>Remove project from the list</source>
-        <target>从清單中移除專案</target>
+        <target>從清單中移除專案</target>
         
       </trans-unit>
       <trans-unit id="tsmiRemoveMissingReposFromList.Text">
@@ -13617,6 +13954,20 @@ Details: Is {1} expected {2}</source>
         <source>Comments</source>
         <target>評論</target>
         
+      </trans-unit>
+    </body>
+  </file>
+  <file datatype="plaintext" original="SettingsPageBase" source-language="en" target-language="zh-Hant">
+    <body>
+      <trans-unit id="_numberSettingPlaceholder.Text">
+        <source>no value set</source>
+        <target>未設定值</target>
+
+      </trans-unit>
+      <trans-unit id="_stringSettingPlaceholder.Text">
+        <source>no value set; for empty string, enter "{0}" without the double quotes</source>
+        <target>未設定值；若要設定空字串，請輸入不含雙引號的 &quot;{0}&quot;</target>
+
       </trans-unit>
     </body>
   </file>

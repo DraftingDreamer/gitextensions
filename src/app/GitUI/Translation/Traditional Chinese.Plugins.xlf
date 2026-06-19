@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0" GitExVersion="">
+﻿<?xml version="1.0" ?><xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0" GitExVersion="">
   <file datatype="plaintext" original="AppVeyorSettingsUserControl" source-language="en" target-language="zh-Hant">
     <body>
       <trans-unit id="cbLoadTestResults.Text">
@@ -1588,4 +1588,32 @@ Please verify the server url.</source>
       </trans-unit>
     </body>
   </file>
-</xliff>
+  <file datatype="plaintext" original="GitHubActionsSettingsUserControl" source-language="en" target-language="zh-Hant">
+    <body>
+      <trans-unit id="lblApiToken.Text">
+        <source>API &amp;Token</source>
+        <target>API 金鑰 (&amp;T)</target>
+
+      </trans-unit>
+      <trans-unit id="lblApiUrl.Text">
+        <source>&amp;API URL</source>
+        <target>API 網址 (&amp;A)</target>
+
+      </trans-unit>
+      <trans-unit id="lblOwner.Text">
+        <source>&amp;Owner</source>
+        <target>擁有者 (&amp;O)</target>
+
+      </trans-unit>
+      <trans-unit id="lblRepository.Text">
+        <source>&amp;Repository</source>
+        <target>版本庫 (&amp;R)</target>
+
+      </trans-unit>
+      <trans-unit id="lnkTokenManagement.Text">
+        <source>Create a GitHub personal access token</source>
+        <target>建立 GitHub 個人存取權杖</target>
+
+      </trans-unit>
+    </body>
+  </file></xliff>
